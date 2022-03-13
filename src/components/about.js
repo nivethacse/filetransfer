@@ -2,11 +2,26 @@ import React from 'react';
 
 export default function about() {
 return (
-		<div className="container main-div">
+	
+	
+	<div>
+			<nav className="navbar navbar-light  container">
+				<a
+					className="navbar-brand "
+					href="/src/components/about.js"
+					style={{ marginLeft: '15px', fontWeight: 'bolder', fontSize: '22px' }}
+				>
+					about
+				</a>
+
+                             
+			</nav>
+		</div>
+		<div className="container">
 			<div className="file-icon">
 				<i className="fa fa-5x fa-cloud-upload" aria-hidden="true"></i>
 			</div>
-			<p className="title-text">Share.io</p>
+			<p className="title-text">about</p>
 			<div>
 				<p className="text text-center">
 					{' '}
