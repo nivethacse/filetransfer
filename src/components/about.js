@@ -10,7 +10,8 @@ export const about = () => {
 					href="/"
 					style={{ marginLeft: '15px', fontWeight: 'bolder', fontSize: '22px' }}
 				>
-					Share.io
+					about
+					
 				</a>
 
 			</nav>
