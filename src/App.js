@@ -1,7 +1,7 @@
 import React from 'react';
 import { Header } from './components/Header';
 import FileUploadPage from './FileUploadPage';
-import { AboutMe } from './components/about';
+import { about } from './components/about';
 
 export const App = () => {
 	return (
