@@ -11,6 +11,10 @@ export const Header = () => {
 				>
 					Share.io
 				</a>
+
+                                <li className="nav-item navLis">
+                                <a className="nav-link " href="#aboutMe" >About</a>
+                                </li>
 			</nav>
 		</div>
 	);
