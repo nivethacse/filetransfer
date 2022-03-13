@@ -13,7 +13,7 @@ export const Header = () => {
 				</a>
 
                                 <li className="nav-item navLis">
-                                <a className="nav-link " href="#about" >About</a>
+                                <a className="nav-link " href="src/components/about.js" >About</a>
                                 </li>
 			</nav>
 		</div>
