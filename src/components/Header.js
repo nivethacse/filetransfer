@@ -18,7 +18,7 @@ export const Header = () => {
 				<a
 					className="navbar-brand "
 					href="src/components/about.js"
-					style={{ marginLeft: '15px', fontWeight: 'bolder', fontSize: '22px' }}
+					style={{ marginright: '15px', fontWeight: 'bolder', fontSize: '22px' }}
 				>
 					about
 				</a>
