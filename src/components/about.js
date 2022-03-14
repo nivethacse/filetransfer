@@ -8,7 +8,7 @@ return (
 			<nav className="navbar navbar-light  container">
 				<a
 					className="navbar-brand "
-					href="/src/components/about.js"
+					href="#about"
 					style={{ marginLeft: '15px', fontWeight: 'bolder', fontSize: '22px' }}
 				>
 					about
