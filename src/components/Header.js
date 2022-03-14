@@ -17,7 +17,7 @@ export const Header = () => {
                         <nav className="navbar navbar-light  container">
 				<a
 					className="navbar-brand "
-					href="/"
+					href="src/components/about.js"
 					style={{ marginLeft: '15px', fontWeight: 'bolder', fontSize: '22px' }}
 				>
 					about
