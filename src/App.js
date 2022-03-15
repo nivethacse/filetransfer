@@ -7,7 +7,9 @@ export const App = () => {
   return (
     <div>
       <Router>
+    
         <div className="App">
+            <Header />
           <li>
             <Link to="/about">About Us</Link>
           </li>
@@ -20,7 +22,7 @@ export const App = () => {
             </Route>
           </Switch>
         </div>
-        <Header />
+       
       </Router>
     </div>
   );
