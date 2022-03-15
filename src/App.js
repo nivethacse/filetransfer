@@ -7,18 +7,20 @@ export const App = () => {
   return (
     <div>
       <Router>
-    <div className="App">
-            <Header />
+        <div className="App">
+        <div class="topnav">
+        <Header />
          <Switch>
             <Route exact path="/">
               <FileUploadPage />
             </Route>
             <Route path="/about">
-              <About />
+            <About />
             </Route>
           </Switch>
         </div>
-       
+        </div>
+        
       </Router>
     </div>
   );
