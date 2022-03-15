@@ -12,19 +12,20 @@ export const Header = () => {
         >
           Share.io
         </Link>
-      </nav>
-      <nav className="navbar navbar-light  container">
-        <Link
-          to="/about"
-          className="navbar-brand "
-          style={{
-            marginright: "15px",
-            fontWeight: "bolder",
-            fontSize: "22px"
-          }}
-        >
-          about
-        </Link>
+      
+
+      <Link
+        to="/about"
+        className="navbar-brand "
+        style={{
+          marginLeft: "15px",
+          fontWeight: "bolder",
+          fontSize: "22px",
+          paddingLeft: "15px"
+        }}
+      >
+        About
+      </Link>
       </nav>
     </div>
   );
