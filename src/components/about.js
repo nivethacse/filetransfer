@@ -1,13 +1,13 @@
-import React from 'react';
+import React from "react";
 
-export default function about() {
-return (
-	
-	<div>
-        <h2>GOT QUESTIONS?</h2>
-        <p>The easiest thing to do is post on
+export default function About() {
+  return (
+    <div>
+      <h2>GOT QUESTIONS?</h2>
+      <p>
+        The easiest thing to do is post on
         <a href="http://forum.kirupa.com">forums</a>.
-        </p>
-        </div>
-);
+      </p>
+    </div>
+  );
 }
