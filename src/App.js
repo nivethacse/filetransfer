@@ -7,13 +7,9 @@ export const App = () => {
   return (
     <div>
       <Router>
-    
-        <div className="App">
+    <div className="App">
             <Header />
-          <li>
-            <Link to="/about">About Us</Link>
-          </li>
-          <Switch>
+         <Switch>
             <Route exact path="/">
               <FileUploadPage />
             </Route>
