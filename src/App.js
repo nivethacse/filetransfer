@@ -2,7 +2,7 @@ import React from "react";
 import { Header } from "./components/Header";
 import FileUploadPage from "./FileUploadPage";
 import About from "./components/about";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Switch, Route} from "react-router-dom";
 export const App = () => {
   return (
     <div>
