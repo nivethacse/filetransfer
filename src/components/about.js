@@ -4,7 +4,7 @@ export default function About() {
  
   return (
     <div>
-      <div style={{display: 'flex',  justifyContent:'center', alignItems:'center', height: '100vh'}}>
+      <div style={{textAlign: 'center'}}>
       <h2 className="title-text" style={{color: "black"}}>File Sharing API.</h2>
       </div>
       <p className="text text-center" style={{color: "black"}}>
